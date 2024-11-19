@@ -5,7 +5,7 @@ export default function DashboardLayouts({ children }) {
 
   return (
    <div className="flex ">
-     <Menu />
+      <Menu />
       <main className="w-full ml-4 mt-4">{ children }</main>
    </div>
   )

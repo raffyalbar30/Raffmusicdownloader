@@ -65,7 +65,7 @@ export default function Icons() {
     <>
     <div className="flex items-center cursor-pointer pb-2 border border-zinc-700">
            <img src="/spotify.png" alt="music yutube downloader" className="h-[40px] pt-2 ml-2"></img>
-             <p className={` ${font.className} font-semibold text-white absolute ml-8 pl-4 pt-2`}>
+             <p className={` ${font.className} font-semibold text-white absolute ml-8 pl-4 pt-2 text-[14px]`}>
                  RaffMusicdownloader
              </p>
     </div>
@@ -90,7 +90,7 @@ export default function Icons() {
 
      <div className="mt-4">
          <p className={`${font.className} text-[15px] font-semibold text-left p-4 `}>"Jangan lupa follow akun medsos gua ygy !! Maaf kalau fitur nya belum lengkap terimakasih yang udah follow " ⭐👨‍💻🙏</p>
-         <div className="flex ml-12 gap-x-6 text-3xl mt-24 items-center">
+         <div className="flex ml-12 gap-x-6 text-3xl mt-12 items-center">
                 {
                   Sosmed.map((Sosial) => (
                     <>
